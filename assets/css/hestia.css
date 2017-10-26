@@ -1968,7 +1968,7 @@ nav ul a span.badge {
     position: absolute;
     height: 100% !important; }
   .banner.large {
-    min-height: calc(100vh - 64px) !important; }
+    min-height: calc(100vh) !important; }
   .banner.small {
     min-height: 40vh;
     max-height: 40vh; }
@@ -2447,8 +2447,8 @@ img, video {
 
 section {
   min-height: 60vh;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 40px;
+  padding-bottom: 40px; }
   section.small {
     min-height: 30vh; }
   section.large {
@@ -2545,7 +2545,7 @@ html {
 body {
   min-height: 100vh;
   flex-direction: column;
-  background: #676767;
+  background: #fff;
   overflow-x: hidden; }
 
 .site-content {
