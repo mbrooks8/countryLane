@@ -1917,7 +1917,7 @@ span.badge {
   height: 18px;
   float: right;
   box-sizing: border-box;
-  background-color: #EF4B23;
+  background-color: #F05A62;
   border-radius: 2px;
   color: #fff;
   padding: 0 2px;
@@ -1989,7 +1989,7 @@ nav ul a span.badge {
       transition: all .2s ease; }
       .banner .bar a:hover {
         cursor: pointer;
-        color: #CB4E54; }
+        color: #F05A62; }
   .banner .imgOverlay {
     position: absolute;
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.5), transparent);
@@ -2455,7 +2455,7 @@ section {
     min-height: 100vh; }
 
 ::selection {
-  background: #CB4E54; }
+  background: #F05A62; }
 
 .scrolloff {
   pointer-events: none; }
@@ -2492,7 +2492,7 @@ small {
   font-weight: 200; }
 
 .secondary {
-  color: #CB4E54 !important; }
+  color: #F05A62 !important; }
 
 .accent {
   color: #43D4FF !important; }
@@ -2504,13 +2504,13 @@ small {
   color: #bfc5cd !important; }
 
 .error {
-  color: #EF4B23 !important; }
+  color: #F05A62 !important; }
 
 .warning {
   color: #F0AD4E !important; }
 
 .defaultText {
-  color: #676767; }
+  color: black; }
 
 /*i{
 color:$icon-color;
@@ -2531,7 +2531,7 @@ hr {
   hr.primary {
     border-color: #CDD2D8; }
   hr.secondary {
-    border-color: #CB4E54; }
+    border-color: #F05A62; }
   hr.accent {
     border-color: #43D4FF; }
   hr.white {
@@ -2622,7 +2622,7 @@ nav {
     /*position:absolute;*/
     float: left;
     margin-right: 10px;
-    color: #FFFFFF;
+    color: black;
     display: inline-block;
     padding: 0;
     height: 64px;
@@ -2676,7 +2676,7 @@ nav {
     nav ul a {
       transition: color .3s;
       font-size: 1.3rem;
-      color: #FFFFFF;
+      color: black;
       display: block;
       padding: 0 15px;
       cursor: pointer; }
@@ -2844,8 +2844,11 @@ nav {
   overflow: hidden;
   text-overflow: ellipsis; }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h2, h3, h4, h5, h6, p, a {
   font-family: 'robotoLight'; }
+
+h1 {
+  font-family: 'robotoBlack'; }
 
 p {
   margin: 0;
@@ -2859,13 +2862,13 @@ a {
   -webkit-tap-highlight-color: transparent; }
   a:hover {
     cursor: pointer;
-    color: #CB4E54; }
+    color: #F05A62; }
 
 html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #676767; }
+  color: black; }
   @media only screen and (min-width: 0) {
     html {
       font-size: 14px; } }
@@ -2884,9 +2887,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
 h1 {
-  font-size: 4.2rem;
+  font-size: 4.5rem;
   line-height: 110%;
-  margin: 2.1rem 0 1.68rem 0; }
+  margin: 2.25rem 0 1.8rem 0; }
 
 h2 {
   font-size: 3.56rem;
@@ -3082,11 +3085,11 @@ small {
         cursor: pointer; }
     .button.raised.errorButton, .modalFooter ul li a.raised.errorButton {
       color: white;
-      background-color: #EF4B23; }
+      background-color: #F05A62; }
       .button.raised.errorButton:hover, .modalFooter ul li a.raised.errorButton:hover {
-        background-color: #d0350f;
+        background-color: #ec2b36;
         color: white;
-        border-color: #d0350f;
+        border-color: #ec2b36;
         cursor: pointer; }
   .button:hover:before, .modalFooter ul li a:hover:before {
     background-color: rgba(0, 0, 0, 0.08); }
@@ -3307,10 +3310,10 @@ input.text {
   box-shadow: none;
   box-sizing: content-box; }
   input.text.active {
-    border-bottom: 1px solid #CB4E54;
-    box-shadow: 0 1px 0 0 #CB4E54; }
+    border-bottom: 1px solid #F05A62;
+    box-shadow: 0 1px 0 0 #F05A62; }
   input.text.active:not([readonly]) + label {
-    color: #CB4E54;
+    color: #F05A62;
     top: -6rem; }
 
 textarea {

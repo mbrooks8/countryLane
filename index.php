@@ -175,21 +175,21 @@ include("./assets/template/home/topNav.php");
 
 <!--FOURTH THING-->
 <section>
-	<div class="row">
-		<div class="col s12 l5">
+	<div class="row" style="position:relative;">
+		<div class="col s12 l10">
 			<div style="position:relative;">
-				<div style="min-height:90vh;background: url(./assets/img/test2.jpg); right:0;"></div>
+				<div style="min-height:90vh;background: url(./assets/img/test2.jpg); left:0;"></div>
 			</div>
 		</div>
 
-		<div class="col s12 l7">
-			<div class="container large">
-				<h1 class="black-text">The <br>Neighborhood</h1>
+
+		<div style="background-color:#F05A62; position:absolute; width:30vw; right:10%; bottom:10%;">
+			<div style="padding:20px;">
+				<h1 class="white-text">The <br>Neighborhood</h1>
 				<br>
-				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h3>
+				<h3 class="white-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h3>
 			</div>
 		</div>
-
 	</div>
 </section>
 <hr class="short">
@@ -205,9 +205,14 @@ include("./assets/template/home/topNav.php");
 
 		<div class="col s12 l7">
 			<div class="container large">
-				<h1 class="black-text">The <br>Neighborhood</h1>
+				<h1 class="black-text">House<br>Rules</h1>
 				<br>
 				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h3>
+				<br>
+				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h3>
+				<p>No Smoking</p>
+				<p>No Pets</p>
+				<p>No parties</p>
 			</div>
 		</div>
 
