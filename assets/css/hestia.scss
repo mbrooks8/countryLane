@@ -23,7 +23,7 @@ $error-color: #EF4B23 !default;
 $warning-color: #F0AD4E !default;
 $link-color: $primary-color !default;
 
-$primary-text-color: #676767 !default;
+$primary-text-color: black !default;
 /*$primary-text-color: #9BA7AF !default;*/
 $body-background-color: #fff !default;
 /*#F9FAFC*/
@@ -54,7 +54,7 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
 // Text
 // ==========================================================================
 // Header Styles
-$h1-fontsize: 4.2rem !default;
+$h1-fontsize: 4.5rem !default;
 $h2-fontsize: 3.56rem !default;
 $h3-fontsize: 2.92rem !default;
 $h4-fontsize: 2.28rem !default;
@@ -66,7 +66,7 @@ $h6-fontsize: 1.2rem !default;
 //Top Nav
 $nav-height:64px !default;
 $nav-color:#ffffff !default;
-$nav-text-color:#FFFFFF !default;
+$nav-text-color:black !default;
 $nav-text-color-dark:#39C7A9 !default;
 $nav-text-size: 1.3rem !default;
 $nav-logo-text-size: 1rem !default;
