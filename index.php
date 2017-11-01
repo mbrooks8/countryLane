@@ -9,12 +9,12 @@ include("./assets/template/home/topNav.php");
 	<div class="content" >
 		<div class="container" style="position:absolute; background-color:#CC4F55; width:100vw; bottom:0; padding-bottom:2%; padding-top:2%;padding-left:5%;padding-right:5%;">
 
-			<h1 class="white-text">Country Lane Appartments</h1>
+			<h1 class="white-text">Country Lane Apartments</h1>
 			<h5 class="white-text">46710 Crawford Street &#xb7; Fremont, California 94539</h5>
 		</div>
 		<div class="imgDiv" style="background: url(./assets/img/test2.jpg)"></div>
 	</div>
-
+<a class="button floating"><i class="fa fa-download fa-2x" aria-hidden="true"></i></a>
 </div>
 <section>
 	<div class="row">
@@ -44,7 +44,7 @@ include("./assets/template/home/topNav.php");
 <section>
 	<div class="row">
 		<div class="container large">
-			<div class="col l5 s12">
+			<div class="col l6 s12">
 				<div class="row">
 					<div class="col s12">
 						<h1 class="black-text" style="text-align: right;">The Space</h1>
@@ -88,7 +88,7 @@ include("./assets/template/home/topNav.php");
 				</div>
 			</div>
 			<div class="col l1 hide-on-med-and-down"></div>
-			<div class="col l6 s12 hide-on-med-and-down">
+			<div class="col l5 s12 hide-on-med-and-down">
 				<div style="position:relative;">
 					<div style="min-height:90vh;background: url(./assets/img/test2.jpg); right:0;"></div>
 				</div>
@@ -97,7 +97,7 @@ include("./assets/template/home/topNav.php");
 		</div>
 	</div>
 </section>
-<hr class="short">
+<hr class="long">
 
 <!--THIRD THING-->
 <section>
@@ -171,8 +171,7 @@ include("./assets/template/home/topNav.php");
 		</div>
 	</div>
 </section>
-<hr class="short">
-
+<hr class="long">
 <!--FOURTH THING-->
 <section>
 	<div class="row" style="position:relative;">
@@ -185,14 +184,14 @@ include("./assets/template/home/topNav.php");
 
 		<div style="background-color:#F05A62; position:absolute; width:30vw; right:10%; bottom:10%;">
 			<div style="padding:20px;">
-				<h1 class="white-text">The <br>Neighborhood</h1>
+				<h1 class="white-text responsive-text">The <br>Neighborhood</h1>
 				<br>
-				<h3 class="white-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h3>
+				<h5 class="white-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h5>
 			</div>
 		</div>
 	</div>
 </section>
-<hr class="short">
+<hr class="long">
 
 <!--FIFTH THING-->
 <section>
@@ -218,7 +217,7 @@ include("./assets/template/home/topNav.php");
 
 	</div>
 </section>
-<hr class="short">
+<hr class="long">
 
 <!--FOURTH THING-->
 <section>
@@ -239,27 +238,19 @@ include("./assets/template/home/topNav.php");
 
 	</div>
 </section>
-<hr class="short">
 <!--FOURTH THING-->
-<section>
-	<div class="row">
-		<div class="col s12 l5">
-			<div style="position:relative;">
-				<div style="min-height:90vh;background: url(./assets/img/test2.jpg); right:0;"></div>
-			</div>
-		</div>
-
-		<div class="col s12 l7">
-			<div class="container large">
-				<h1 class="black-text">The <br>Neighborhood</h1>
-				<br>
-				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h3>
-			</div>
-		</div>
-
+<section style="background-color:#CC4F55; position:relative;" class="large valign">
+	<div>
+		<h1>Enjoy Your Stay!</h1>
+	</div>
+	<div style="position:absolute; bottom:10%; left:10%;">
+		<p>Phone&nbsp;&nbsp;&nbsp;(510)-656-9196</p>
+		<br>
+		<p>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;email@email.com</p>
+		<br>
+		<p>Hours&nbsp;&nbsp;&nbsp;&nbsp;Monday - Friday : 1pm - 8pm</p>
 	</div>
 </section>
-<hr class="short">
 
 <?php
 include("./assets/template/home/botNav.php");
