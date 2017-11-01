@@ -2521,7 +2521,6 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  height: 0;
   box-sizing: content-box;
   border-top: 1px solid #e0e0e0; }
   hr.short {
@@ -2844,10 +2843,10 @@ nav {
   overflow: hidden;
   text-overflow: ellipsis; }
 
-h2, h3, h4, h5, h6, p, a {
+h3, p, a {
   font-family: 'robotoLight'; }
 
-h1 {
+h1, h2, h4, h5, h6 {
   font-family: 'robotoBlack'; }
 
 p {

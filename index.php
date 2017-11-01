@@ -14,7 +14,7 @@ include("./assets/template/home/topNav.php");
 		</div>
 		<div class="imgDiv" style="background: url(./assets/img/test2.jpg)"></div>
 	</div>
-<a class="button floating"><i class="fa fa-download fa-2x" aria-hidden="true"></i></a>
+	<a class="button floating"><i class="fa fa-download fa-2x" aria-hidden="true"></i></a>
 </div>
 <section>
 	<div class="row">
@@ -63,24 +63,26 @@ include("./assets/template/home/topNav.php");
 						<h3 class="black-text" style="text-align: right;">Availibility: <span><b>December</b></span></h3>
 					</div>
 				</div>
+				<br>
+				<br>
 				<div class="col s12" style="border:1px solid black;">
 					<div class="row">
 						<div class="col s4 valign">
 							<div>
-								<h1 class="black-text">5</h1>
-								<h5 class="black-text">guests</h5>
+								<h1 class="black-text" style="text-align:center;">4</h1>
+								<h3 class="black-text">Guests</h3>
 							</div>
 						</div>
 						<div class="col s4 valign">
 							<div>
-								<h1 class="black-text">5</h1>
-								<h5 class="black-text">guests</h5>
+								<h1 class="black-text" style="text-align:center;">2</h1>
+								<h3 class="black-text">Bedrooms</h3>
 							</div>
 						</div>
 						<div class="col s4 valign">
 							<div>
-								<h1 class="black-text">5</h1>
-								<h5 class="black-text">guests</h5>
+								<h1 class="black-text" style="text-align:center;">1</h1>
+								<h3 class="black-text">Bathroom</h3>
 							</div>
 						</div>
 
@@ -89,10 +91,7 @@ include("./assets/template/home/topNav.php");
 			</div>
 			<div class="col l1 hide-on-med-and-down"></div>
 			<div class="col l5 s12 hide-on-med-and-down">
-				<div style="position:relative;">
-					<div style="min-height:90vh;background: url(./assets/img/test2.jpg); right:0;"></div>
-				</div>
-
+				<div style="min-height:90vh;background: url(./assets/img/test2.jpg); right:0;"></div>
 			</div>
 		</div>
 	</div>
@@ -165,9 +164,7 @@ include("./assets/template/home/topNav.php");
 			</div>
 		</div>
 		<div class="col s12 l5">
-			<div style="position:relative;">
-				<div style="min-height:90vh;background: url(./assets/img/test2.jpg); right:0;"></div>
-			</div>
+			<div style="min-height:90vh;background: url(./assets/img/test2.jpg); right:-10px; position:relative;"></div>
 		</div>
 	</div>
 </section>
@@ -183,68 +180,63 @@ include("./assets/template/home/topNav.php");
 
 
 		<div style="background-color:#F05A62; position:absolute; width:30vw; right:10%; bottom:10%;">
-			<div style="padding:20px;">
-				<h1 class="white-text responsive-text">The <br>Neighborhood</h1>
+			<div style="padding:10%;">
+				<!--DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+				<h1 class="white-text">The <br>Neighborhood</h1>
 				<br>
-				<h5 class="white-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h5>
+				<p class="white-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </p>
 			</div>
 		</div>
 	</div>
 </section>
-<hr class="long">
+<hr class="long" style="margin-bottom:0px;">
 
 <!--FIFTH THING-->
-<section>
-	<div class="row">
-		<div class="col s12 l5">
-			<div style="position:relative;">
-				<div style="min-height:90vh;background: url(./assets/img/test2.jpg); right:0;"></div>
-			</div>
-		</div>
-
-		<div class="col s12 l7">
-			<div class="container large">
-				<h1 class="black-text">House<br>Rules</h1>
-				<br>
-				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h3>
-				<br>
-				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h3>
-				<p>No Smoking</p>
-				<p>No Pets</p>
-				<p>No parties</p>
-			</div>
-		</div>
-
+<div class="row" style="margin-bottom:0px; position:relative;">
+	<div class="col s12 l5">
+		<div style="min-height:100vh;background: url(./assets/img/test2.jpg); left:-10px; position:relative;"></div>
 	</div>
-</section>
-<hr class="long">
 
-<!--FOURTH THING-->
-<section>
-	<div class="row">
-		<div class="col s12 l5">
-			<div style="position:relative;">
-				<div style="min-height:90vh;background: url(./assets/img/test2.jpg); right:0;"></div>
-			</div>
+	<div class="col s12 l6">
+		<div class="container" style="padding-top:10%;">
+			<h1 class="black-text">House<br>Rules</h1>
+			<br>
+			<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, </h3>
+			<br>
+			<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two </h3>
+			<p>No Smoking</p>
+			<p>No Pets</p>
+			<p>No parties</p>
 		</div>
-
-		<div class="col s12 l7">
-			<div class="container large">
-				<h1 class="black-text">The <br>Neighborhood</h1>
-				<br>
-				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, giant skylights and huge private roof. Steps to the city's best resturaurnts and nightlife. </h3>
-			</div>
-		</div>
-
 	</div>
-</section>
+
+	<div class="col s12 l1">
+		<div style="min-height:100vh;background: url(./assets/img/test2.jpg); right:-10px; position:relative;"></div>
+	</div>
+	<div style="background-color:#F05A62; position:absolute; width:25vw; right:5%; bottom:5%;">
+		<div style="padding:10%;">
+			<h3 class="white-text"><b>No Smoking</b></h3>
+			<h3 class="white-text"><b>No Friends</b></h3>
+			<h3 class="white-text"><b>No Life</b></h3>
+		</div>
+	</div>
+</div>
+<hr class="long" style="margin-top:0px;">
 <!--FOURTH THING-->
 <section style="background-color:#CC4F55; position:relative;" class="large valign">
 	<div>
 		<h1>Enjoy Your Stay!</h1>
 	</div>
 	<div style="position:absolute; bottom:10%; left:10%;">
-		<p>Phone&nbsp;&nbsp;&nbsp;(510)-656-9196</p>
+		<p>Phone&nbsp;&nbsp;&nbsp;(510)-555-9196</p>
 		<br>
 		<p>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;email@email.com</p>
 		<br>
