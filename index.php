@@ -1,14 +1,25 @@
-
-
 <?php
 include("./assets/template/home/topNav.php");
 ?>
 
-
 <div class="banner large">
+<!--			<nav style="background-color:rgba(0,0,0,.1);">
+				<div class="nav-wrapper">
+					<a href="#welcome" class="logo">Logo</a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#link1" class="black-text">Link1</a></li>
+						<li><a href="#link2" class="black-text">Link2</a></li>
+						<li><a href="#link3" class="black-text">Link3</a></li>
+						<li><a href="#link4" class="black-text">Link4</a></li>
+					</ul>
+					<ul class="right hide-on-large-only">
+						<li><a class="sideToggle"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</nav>-->
 	<div class="content" >
 		<div class="container" style="position:absolute; background-color:#CC4F55; width:100vw; bottom:0; padding-bottom:2%; padding-top:2%;padding-left:5%;padding-right:5%;">
-<a class="button floating"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+			<a class="button floating"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
 			<h1 class="white-text">Country Lane Apartments</h1>
 			<h5 class="white-text">46710 Crawford Street &#xb7; Fremont, California 94539</h5>
 		</div>
@@ -164,7 +175,7 @@ include("./assets/template/home/topNav.php");
 			</div>
 		</div>
 		<div class="col s12 l5">
-			<div style="min-height:90vh;background: url(./assets/img/test2.jpg); right:-10px; position:relative;"></div>
+			<div class="animation-element slide-right" style="min-height:90vh;background: url(./assets/img/test2.jpg); right:-10px; position:relative;"></div>
 		</div>
 	</div>
 </section>
@@ -174,12 +185,12 @@ include("./assets/template/home/topNav.php");
 	<div class="row" style="position:relative;">
 		<div class="col s12 l10">
 			<div style="position:relative;">
-				<div style="min-height:90vh;background: url(./assets/img/test2.jpg); left:0;"></div>
+				<div style="min-height:90vh;background: url(./assets/img/test2.jpg); left:0;" class="animation-element slide-left fast"></div>
 			</div>
 		</div>
 
 
-		<div style="background-color:#F05A62; position:absolute; width:30vw; right:10%; bottom:10%;">
+		<div style="background-color:#F05A62; position:absolute; width:30vw; right:10%; bottom:10%;" class="animation-element fade-in">
 			<div style="padding:10%;">
 				<!--DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -203,7 +214,7 @@ DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <section>
 	<div class="row" style="margin-bottom:0px; position:relative;">
 		<div class="col s12 l5">
-			<div style="min-height:100vh;background: url(./assets/img/test2.jpg); left:-10px; position:relative;"></div>
+			<div style="min-height:100vh;background: url(./assets/img/test2.jpg); left:-10px; position:relative;" class="animation-element slide-left fast"></div>
 		</div>
 
 		<div class="col s12 l6">
@@ -213,16 +224,13 @@ DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, </h3>
 				<br>
 				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two </h3>
-				<p>No Smoking</p>
-				<p>No Pets</p>
-				<p>No parties</p>
 			</div>
 		</div>
 
 		<div class="col s12 l1">
-			<div style="min-height:100vh;background: url(./assets/img/test2.jpg); right:-10px; position:relative;"></div>
+			<div style="min-height:100vh;background: url(./assets/img/test2.jpg); right:-10px; position:relative;" class="animation-element slide-right"></div>
 		</div>
-		<div style="background-color:#F05A62; position:absolute; width:20vw; right:5%; bottom:5%;">
+		<div style="background-color:#F05A62; position:absolute; width:20vw; right:5%; bottom:5%;" class="animation-element fade-in">
 			<div style="padding:5% 10% 5% 10%;">
 				<h3 class="white-text"><b>No Smoking</b></h3>
 				<h3 class="white-text"><b>No Friends</b></h3>

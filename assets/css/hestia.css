@@ -2495,7 +2495,7 @@ small {
   color: #F05A62 !important; }
 
 .accent {
-  color: #43D4FF !important; }
+  color: #448AFF !important; }
 
 .success {
   color: #00CC99 !important; }
@@ -2532,7 +2532,7 @@ hr {
   hr.secondary {
     border-color: #F05A62; }
   hr.accent {
-    border-color: #43D4FF; }
+    border-color: #448AFF; }
   hr.white {
     border-color: white; }
 
@@ -3105,15 +3105,15 @@ small {
     line-height: 56px;
     border-radius: 50%;
     top: -27px;
-    left: 85%;
+    left: 75%;
     margin: 0;
     padding: 0;
-    background-color: #43D4FF;
+    background-color: #448AFF;
     color: #ffffff;
     cursor: pointer;
     z-index: 1; }
     .button.floating:hover, .modalFooter ul li a.floating:hover {
-      background-color: #5ddaff; }
+      background-color: #5e9aff; }
     .button.floating i, .modalFooter ul li a.floating i {
       width: inherit;
       display: inline-block;
@@ -3346,7 +3346,7 @@ form {
   height: 35px !important;
   width: 35px !important;
   opacity: .8;
-  background-color: #43D4FF;
+  background-color: #448AFF;
   color: #ffffff;
   border-radius: 50% !important;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3) !important;
@@ -3362,7 +3362,7 @@ form {
       left: 10px; }
   .editButton:hover, .submitButton:hover {
     opacity: .9;
-    background-color: #5ddaff; }
+    background-color: #5e9aff; }
 
 .editable {
   position: relative; }
