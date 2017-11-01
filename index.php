@@ -8,13 +8,13 @@ include("./assets/template/home/topNav.php");
 <div class="banner large">
 	<div class="content" >
 		<div class="container" style="position:absolute; background-color:#CC4F55; width:100vw; bottom:0; padding-bottom:2%; padding-top:2%;padding-left:5%;padding-right:5%;">
-
+<a class="button floating"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
 			<h1 class="white-text">Country Lane Apartments</h1>
 			<h5 class="white-text">46710 Crawford Street &#xb7; Fremont, California 94539</h5>
 		</div>
 		<div class="imgDiv" style="background: url(./assets/img/test2.jpg)"></div>
 	</div>
-	<a class="button floating"><i class="fa fa-download fa-2x" aria-hidden="true"></i></a>
+
 </div>
 <section>
 	<div class="row">
@@ -197,39 +197,41 @@ DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 		</div>
 	</div>
 </section>
-<hr class="long" style="margin-bottom:0px;">
+<hr class="long">
 
 <!--FIFTH THING-->
-<div class="row" style="margin-bottom:0px; position:relative;">
-	<div class="col s12 l5">
-		<div style="min-height:100vh;background: url(./assets/img/test2.jpg); left:-10px; position:relative;"></div>
-	</div>
+<section>
+	<div class="row" style="margin-bottom:0px; position:relative;">
+		<div class="col s12 l5">
+			<div style="min-height:100vh;background: url(./assets/img/test2.jpg); left:-10px; position:relative;"></div>
+		</div>
 
-	<div class="col s12 l6">
-		<div class="container" style="padding-top:10%;">
-			<h1 class="black-text">House<br>Rules</h1>
-			<br>
-			<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, </h3>
-			<br>
-			<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two </h3>
-			<p>No Smoking</p>
-			<p>No Pets</p>
-			<p>No parties</p>
+		<div class="col s12 l6">
+			<div class="container" style="padding-top:10%;">
+				<h1 class="black-text">House<br>Rules</h1>
+				<br>
+				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two bedroom, one bath with open kitchen, </h3>
+				<br>
+				<h3 class="black-text">Quincentennial California loft in the heart of everything! Spacious bright two </h3>
+				<p>No Smoking</p>
+				<p>No Pets</p>
+				<p>No parties</p>
+			</div>
+		</div>
+
+		<div class="col s12 l1">
+			<div style="min-height:100vh;background: url(./assets/img/test2.jpg); right:-10px; position:relative;"></div>
+		</div>
+		<div style="background-color:#F05A62; position:absolute; width:20vw; right:5%; bottom:5%;">
+			<div style="padding:5% 10% 5% 10%;">
+				<h3 class="white-text"><b>No Smoking</b></h3>
+				<h3 class="white-text"><b>No Friends</b></h3>
+				<h3 class="white-text"><b>No Life</b></h3>
+			</div>
 		</div>
 	</div>
-
-	<div class="col s12 l1">
-		<div style="min-height:100vh;background: url(./assets/img/test2.jpg); right:-10px; position:relative;"></div>
-	</div>
-	<div style="background-color:#F05A62; position:absolute; width:25vw; right:5%; bottom:5%;">
-		<div style="padding:10%;">
-			<h3 class="white-text"><b>No Smoking</b></h3>
-			<h3 class="white-text"><b>No Friends</b></h3>
-			<h3 class="white-text"><b>No Life</b></h3>
-		</div>
-	</div>
-</div>
-<hr class="long" style="margin-top:0px;">
+</section>
+<hr class="long">
 <!--FOURTH THING-->
 <section style="background-color:#CC4F55; position:relative;" class="large valign">
 	<div>

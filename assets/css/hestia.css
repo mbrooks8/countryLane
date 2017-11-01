@@ -3104,8 +3104,8 @@ small {
     width: 56px;
     line-height: 56px;
     border-radius: 50%;
-    bottom: -27px;
-    left: 75%;
+    top: -27px;
+    left: 85%;
     margin: 0;
     padding: 0;
     background-color: #43D4FF;
