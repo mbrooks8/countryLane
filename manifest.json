@@ -1,11 +1,11 @@
 {
-  "name": "Hestia Property Management",
-  "short_name": "HestiaPMS",
+  "name": "Country lane Apartments",
+  "short_name": "Country lane Apartments",
   "start_url": ".",
   "display": "fullscreen",
   "background_color": "#fff",
 	"theme_color": "#00CC99",
-  "description": "Property Management Software geared towards giving you the ability to efficiently manage your proporties.",
+  "description": "Website for Country Lane Apartments in Fremont, California.",
   "related_applications": [{
     "platform": "web"
   }]

@@ -19,9 +19,9 @@ include("./assets/template/home/topNav.php");
 			</nav>-->
 	<div class="content" >
 		<div class="container" style="position:absolute; background-color:#CC4F55; width:100vw; bottom:0; padding-bottom:2%; padding-top:2%;padding-left:5%;padding-right:5%;">
-			<a class="button floating"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
 			<h1 class="white-text">Country Lane Apartments</h1>
 			<h5 class="white-text">46710 Crawford Street &#xb7; Fremont, California 94539</h5>
+			<h5 class="white-text">(510) 579-5088</h5>
 		</div>
 		<div class="imgDiv" style="background: url(./assets/img/test2.jpg)"></div>
 	</div>
@@ -34,11 +34,13 @@ include("./assets/template/home/topNav.php");
 				<div style="max-height:60vh; overflow:hidden;">
 					<img style="width:100vw;" src="./assets/img/test2.jpg">
 				</div>
-				<br><br><br>
+				<div class="hide-on-small-only">
+				    <br><br><br>
+				</div>
 				<div class="row">
 
 					<div class="col l3 s12">
-						<h1 class="black-text">About<br> This Home</h1>
+						<h1 class="black-text" style="margin-bottom:0;">About<br> This Home</h1>
 					</div>
 
 					<div class="col l9 s12">
@@ -76,7 +78,7 @@ include("./assets/template/home/topNav.php");
 				</div>
 				<br>
 				<br>
-				<div class="col s12" style="border:1px solid black;">
+				<div class="col s12 hide-on-med-and-down" style="border:1px solid black;">
 					<div class="row">
 						<div class="col s4 valign">
 							<div>
@@ -144,6 +146,7 @@ include("./assets/template/home/topNav.php");
 
 					<p class="black-text">Sewage</p>
 				</div>
+				<br>
 				<div class="col s12 m6">
 
 					<p class="black-text">Washer</p><br>
@@ -190,7 +193,7 @@ include("./assets/template/home/topNav.php");
 		</div>
 
 
-		<div style="background-color:#F05A62; position:absolute; width:30vw; right:10%; bottom:10%;" class="animation-element fade-in">
+		<div class="animation-element fade-in theNeighborhood">
 			<div style="padding:10%;">
 				<!--DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 DO SOMETHIGN WITH THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~
